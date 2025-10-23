@@ -1,0 +1,189 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+ /* Estilos base — aplicados a todas as partes da pasta */
+.pasta_mid,
+.pasta_sub,
+.pasta_down {
+    position: absolute;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), inset 11px -6px 13.9px rgba(0, 0, 0, 0.25);
+    background: #7679C4;
+}
+
+/* Parte do meio da pasta */
+.pasta_mid {
+    width: 70%;
+    height: 60%;
+    left: 17%;
+    top: 35%;
+    border-radius: 100px 0px 49px 76px;
+}
+
+/* Aba superior da pasta */
+.pasta_sub {
+    width: 23%;
+    height: 14%;
+    left: 64%;
+    top: 21%;
+    border-radius: 74px 52px 0px 0px;
+}
+
+/* Parte inferior com cor diferente */
+.pasta_down {
+    width: 25%;
+    height: 20%;
+    left: 58%;
+    top: 75%;
+    background: rgba(90, 224, 197, 0.66);
+    box-shadow: inset 0px 10px 14.7px rgba(0, 0, 0, 0.25);
+    border-radius: 68px 68px 0px 0px;
+}
+
+
+.logo {
+  position: absolute;
+  width: 15%;
+  height: auto;
+  left: 1%;
+  top: -1%;
+}
+
+body
+{
+  background-color: rgba(173, 158, 204, 1);
+}
+
+.inicio
+{
+    /* Início */
+
+position: absolute;
+width: 5%;
+height: 30%;
+left: 22%;
+top: 10%;
+
+font-family: sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 3.5vh;
+line-height: 12vh;
+color: #1B5088;
+/* identical to box height */
+
+text-shadow: 17px 9px 3.8px rgba(0, 0, 0, 0.25);
+
+}
+
+.sobre
+{
+    
+position: absolute;
+width: 5%;
+height: 30%;
+left: 35.5%;
+top: 10%;
+
+font-family: sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 3.5vh;
+line-height: 12vh;
+color: #1B5088;
+/* identical to box height */
+
+text-shadow: 17px 9px 3.8px rgba(0, 0, 0, 0.25);
+}
+
+.servicos
+{
+    
+position: absolute;
+width: 5%;
+height: 30%;
+left: 48%;
+top: 10%;
+
+font-family: sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 3.4vh;
+line-height: 12vh;
+color: #1B5088;
+/* identical to box height */
+
+text-shadow: 17px 9px 3.8px rgba(0, 0, 0, 0.25);
+}
+
+
+
+/* Botão Contato */
+.Contato {
+    position: absolute;
+    width: 13%;
+    height: 8%;
+    left: 70%;
+    top: 10%;
+
+    background: #6F83DD;
+    box-shadow: inset 0px -5px 9.1px -4px rgba(0, 0, 0, 0.25);
+    border-radius: 33px;
+    border-color: #6F83DD;
+
+    font-family: 'Inria Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 34px;
+    color: white; /* adiciona cor ao texto */
+    text-align: center; /* centraliza o texto */
+    text-shadow: 14px 6px 6.2px rgba(0, 0, 0, 0.25);
+
+    padding: 10px 30px; /* espaço interno pro texto */
+    cursor: pointer; /* cursor de botão */
+}
+
+.texto {
+  position: absolute;
+  width: 35%;
+  height: 20%;
+  left: 22%;
+  top: 56%;
+
+  font-family: 'Inria Sans', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 5vh;
+  color: #FFFFFF;
+}
+
+/* Texto acima (por exemplo, título) */
+.texto_acima {
+  font-size: 5vh;
+}
+
+/* Texto abaixo (por exemplo, subtítulo) */
+.texto_abaixo {
+  font-family: 'Inria Sans', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2.5vh; /* antes estava 0pt — deixei algo proporcional */
+  line-height: 3.5vh;
+  color: #000000;
+}
+
+/* Destaque preto */
+.destaque_preto {
+  color: black;
+}
+
+
+@media (max-width: 600px) {
+  body{
+    background-color: #1B5088;
+  }
+}
