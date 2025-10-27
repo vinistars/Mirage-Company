@@ -1,0 +1,150 @@
+* 
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body
+{
+    background-color: #1B5088;
+}
+
+.logo 
+{
+  position: absolute;
+  width: 15%;   
+  height: 26%;
+  left: 3%;
+  top: -1%;
+}
+
+.mirage
+{
+    position: absolute;
+    width: 15%;
+    height: 10%;
+    left: 18%;
+    top: 5%;
+
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 7vh;
+    line-height: 7vh;
+
+    color: #FFFFFF;
+
+    text-shadow: 10px 1px 4.5px rgba(0, 0, 0, 0.25);
+}
+
+
+.superior_direito
+{
+    display: flex;
+    gap: 2%;
+
+    justify-content: flex-end;
+
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 100;
+    font-size: 2vh;
+    line-height: 2vh;
+    color: rgb(255, 255, 255);
+    margin-top: 5%;
+    padding-right: 10.4%;
+
+    text-shadow: 17px 9px 3.8px rgba(0, 0, 0, 0.25);
+}
+
+.superior_direito a 
+{
+  text-decoration: none; /* tira o sublinhado */
+  color: white;          /* cor do texto */
+}
+
+.superior_direito a:visited 
+{
+  color: white;          /* mantém a cor mesmo após clicar */
+}
+
+.computador
+{
+    position: absolute;
+    width: 28%;
+    height: 50%;
+    left: 59%;
+    top: 30%;
+
+    border-radius: 243px;
+}
+
+.texto_acima
+{
+    position: absolute;
+    width: 35%;
+    height: 20%;
+    left: 4%;
+    top: 30%;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 10vh;
+    line-height: 9vh;
+
+    color: #FFFFFF;
+
+    text-shadow: 9px 3px 4.8px rgba(0, 0, 0, 0.25);
+}
+
+.texto_abaixo
+{
+    position: absolute;
+    width: 40%;
+    height: 15%;
+    left: 4%;
+    top: 66%;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 4vh;
+    line-height: 4.6vh;
+
+    color: #FFFFFF;
+
+    text-shadow: 9px 3px 4.8px rgba(0, 0, 0, 0.25);
+}
+
+.saiba_mais
+{
+
+    cursor: pointer;
+    position: absolute;
+    height: 10%;
+    width: 35%;
+    top: 85%;
+    left: 3.7%;
+
+    background: linear-gradient(0deg, #64AEF3, #64AEF3), linear-gradient(0deg, #FFFEFE, #FFFEFE), #FFFEFE;
+    border: 5.2px solid #0084FF;
+    box-shadow: 26px 10px 23.7px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+
+    font-family: 'Inria Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 4vh;
+    line-height: 2vh;
+
+    color: #000000;
+
+}
+
+.saiba_mais:active 
+{
+  transform: translateY(4px);
+  box-shadow: 10px 5px 10px rgba(0, 0, 0, 0.25);
+}
