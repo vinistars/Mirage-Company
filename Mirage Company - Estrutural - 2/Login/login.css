@@ -1,0 +1,172 @@
+* 
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.background 
+{
+  position: absolute;
+  width: 489px;
+  height: 656px;
+  background: #1B5088;
+  box-shadow: 10px 8px 8px rgba(100, 66, 130, 0.25);
+  border-radius: 16px;
+
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.user 
+{
+  font-size: 28px;
+  position: absolute;
+  width: 340px;
+  height: 66px;
+  left: 76px;
+  top: 220px;
+
+  background: #FFFEFE;
+  border: 1.6px solid #000000;
+  backdrop-filter: blur(40px);
+  border-radius: 16px;
+}
+
+.botao 
+{
+  position: absolute;
+  width: 340px;
+  height: 66px;
+  left: 72px;
+  top: 520px;
+
+  cursor: pointer;
+  background: #64AEF3;
+  border: 4px solid #0084FF;
+  box-shadow: 20px 8px 19px 3px rgba(0, 0, 0, 0.25),
+              0px 3px 3px rgba(0, 0, 0, 0.25);
+  border-radius: 16px;
+
+  font-family: 'Inria Sans', sans-serif;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 38px;
+  white-space: nowrap;
+}
+
+.botao:active 
+{
+  transform: translateY(4px);
+  box-shadow: 10px 5px 10px rgba(0, 0, 0, 0.25);
+}
+
+.Senha 
+{
+  font-size: 28px;
+  position: absolute;
+  width: 340px;
+  height: 66px;
+  left: 76px;
+  top: 380px;
+
+  background: #FFFFFF;
+  border: 1.6px solid #000000;
+  box-shadow: 56px 44px 140px 46px rgba(0, 0, 0, 0.25);
+  backdrop-filter: blur(1.6px);
+  border-radius: 16px;
+}
+
+.esqueci_senha 
+{
+  position: absolute;
+  width: auto;
+  height: 33px;
+  left: 130px;
+  top: 470px;
+
+  font-family: 'Joan', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 33px;
+
+  color: #FFFFFF;
+  white-space: nowrap;
+  text-shadow: 0px 3px 3px rgba(0, 0, 0, 0.25);
+}
+
+.cadastrar 
+{
+  position: absolute;
+  width: auto;
+  height: 33px;
+  left: 80px;
+  top: 613px;
+
+  font-family: 'Joan', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 33px;
+
+  color: #FFFFFF;
+  white-space: nowrap;
+}
+
+.user2 
+{
+  position: absolute;
+  width: auto;
+  height: 42px;
+  left: 84px;
+  top: 180px;
+
+  font-family: 'Joan', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 42px;
+
+  color: #FFFFFF;
+  white-space: nowrap;
+}
+
+.senha2 
+{
+  position: absolute;
+  width: auto;
+  height: 42px;
+  left: 84px;
+  top: 340px;
+
+  font-family: 'Joan', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 42px;
+
+  color: #FFFFFF;
+  white-space: nowrap;
+}
+
+.logo 
+{
+  position: absolute;
+  width: 200px;
+  height: auto;
+  left: 152px;
+  top: -8px;
+}
+
+body 
+{
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #0d2c50;
+  font-family: 'Joan', sans-serif;
+}
