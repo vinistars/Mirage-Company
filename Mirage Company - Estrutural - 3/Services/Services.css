@@ -1,0 +1,311 @@
+* 
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+ /* Estilos base — aplicados a todas as partes da pasta */
+.pasta_mid,
+.pasta_sub,
+.pasta_down 
+{
+    position: absolute;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), inset 11px -6px 13.9px rgba(0, 0, 0, 0.25);
+    background: #7679C4;
+}
+
+/* Parte do meio da pasta */
+.pasta_mid 
+{
+    width: 70%;
+    height: 60%;
+    left: 17%;
+    top: 35%;
+    border-radius: 100px 0px 49px 76px;
+}
+
+/* Aba superior da pasta */
+.pasta_sub 
+{
+    width: 23%;
+    height: 14%;
+    left: 64%;
+    top: 21%;
+    border-radius: 74px 52px 0px 0px;
+}
+
+/* Parte inferior com cor diferente */
+.pasta_down 
+{
+    width: 25%;
+    height: 20%;
+    left: 58%;
+    top: 75%;
+    background: rgba(90, 224, 197, 0.66);
+    box-shadow: inset 0px 10px 14.7px rgba(0, 0, 0, 0.25);
+    border-radius: 68px 68px 0px 0px;
+}
+
+
+.logo 
+{
+  position: absolute;
+  width: 15%;
+  height: auto;
+  left: 1%;
+  top: -1%;
+}
+
+body
+{
+  background-color: #1B5088;
+  padding-bottom: 2500px; 
+}
+
+.inicio
+{
+    /* Início */
+
+position: absolute;
+width: 5%;
+height: 30%;
+left: 22%;
+top: 10%;
+
+font-family: sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 3.5vh;
+line-height: 12vh;
+color: #ffffff;
+/* identical to box height */
+
+text-shadow: 17px 9px 3.8px rgba(0, 0, 0, 0.25);
+
+}
+
+.sobre
+{
+    
+position: absolute;
+width: 5%;
+height: 30%;
+left: 35.5%;
+top: 10%;
+
+font-family: sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 3.5vh;
+line-height: 12vh;
+color: #ffffff;
+/* identical to box height */
+
+text-shadow: 17px 9px 3.8px rgba(0, 0, 0, 0.25);
+}
+
+.servicos
+{
+    
+position: absolute;
+width: 5%;
+height: 30%;
+left: 48%;
+top: 10%;
+
+font-family: sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 3.4vh;
+line-height: 12vh;
+color: #ffffff;
+/* identical to box height */
+
+text-shadow: 17px 9px 3.8px rgba(0, 0, 0, 0.25);
+}
+
+
+
+/* Botão Contato */
+.Contato {
+    position: absolute;
+    width: 13%;
+    height: 8%;
+    left: 70%;
+    top: 10%;
+
+    background: #6F83DD;
+    box-shadow: inset 0px -5px 9.1px -4px rgba(0, 0, 0, 0.25);
+    border-radius: 33px;
+    border-color: #6F83DD;
+
+    font-family: 'Inria Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 34px;
+    color: white; /* adiciona cor ao texto */
+    text-align: center; /* centraliza o texto */
+    text-shadow: 14px 6px 6.2px rgba(0, 0, 0, 0.25);
+
+    padding: 10px 30px; /* espaço interno pro texto */
+    cursor: pointer; /* cursor de botão */
+}
+
+.texto {
+  position: absolute;
+  width: 35%;
+  height: 20%;
+  left: 22%;
+  top: 56%;
+
+  font-family: 'Inria Sans', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 5vh;
+  color: #000000;
+}
+
+/* Texto acima (por exemplo, título) */
+.texto_acima {
+  font-size: 5vh;
+}
+
+/* Texto abaixo (por exemplo, subtítulo) */
+.texto_abaixo {
+  font-family: 'Inria Sans', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2.5vh; /* antes estava 0pt — deixei algo proporcional */
+  line-height: 3.5vh;
+  color: #000000;
+}
+
+/* Destaque preto */
+.destaque_branco {
+  color: rgb(255, 255, 255);
+}
+
+.botao_virtualizacao
+{
+  cursor: pointer;
+  position: absolute;
+  width: 18%;
+  height: 12%;
+  left: 20%;
+  top: 150%;
+
+  background-color: #5456AF;
+  border: 5px solid #000000;
+  border-radius: 25px;
+
+  color: #000000;
+
+
+  font-family: 'Inria Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 3vh;
+  line-height: 2vh;
+}
+
+.botao_modernização_parcial
+{
+  cursor: pointer;
+  position: absolute;
+  width: 18%;
+  height: 12%;
+  left: 70%;
+  top: 150%;
+
+  background-color: #5456AF;
+  border: 5px solid #000000;
+  border-radius: 25px;
+
+  color: #000000;
+
+
+  font-family: 'Inria Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 3vh;
+  line-height: 2vh;
+}
+
+
+.conteinerizacao
+{
+  cursor: pointer;
+  position: absolute;
+  width: 18%;
+  height: 12%;
+  left: 20%;
+  top: 190%;
+
+  background-color: #5456AF;
+  border: 5px solid #000000;
+  border-radius: 25px;
+
+  color: #000000;
+
+
+  font-family: 'Inria Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 3vh;
+  line-height: 2vh; 
+}
+
+.documentacao
+{
+  cursor: pointer;
+  position: absolute;
+  width: 18%;
+  height: 12%;
+  left: 70%;
+  top: 190%;
+
+  background-color: #5456AF;
+  border: 5px solid #000000;
+  border-radius: 25px;
+
+  color: #000000;
+
+
+  font-family: 'Inria Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 3vh;
+  line-height: 2vh;  
+}
+
+.enviar
+{
+    cursor: pointer;
+    position: absolute;
+    height: 10%;
+    width: 25%;
+    top: 230%;
+    left: 63.5%;
+
+    background: linear-gradient(0deg, #414DBF, #414DBF), linear-gradient(0deg, #FFFEFE, #FFFEFE), #FFFEFE;
+    border: 5.2px solid #5456AF;
+    box-shadow: 26px 10px 23.7px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+
+    font-family: 'Inria Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 4vh;
+    line-height: 2vh;
+
+    color: #000000;
+}
+
+.enviar:active 
+{
+  transform: translateY(4px);
+  box-shadow: 10px 5px 10px rgba(0, 0, 0, 0.25);
+}

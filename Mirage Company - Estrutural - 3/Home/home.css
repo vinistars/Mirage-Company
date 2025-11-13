@@ -1,0 +1,689 @@
+* 
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+ /* Estilos base — aplicados a todas as partes da pasta */
+.pasta_mid,
+.pasta_sub,
+.pasta_down 
+{
+    position: absolute;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), inset 11px -6px 13.9px rgba(0, 0, 0, 0.25);
+    background: #7679C4;
+}
+
+/* Parte do meio da pasta */
+.pasta_mid 
+{
+    width: 70%;
+    height: 60%;
+    left: 17%;
+    top: 35%;
+    border-radius: 100px 0px 49px 76px;
+}
+
+/* Aba superior da pasta */
+.pasta_sub 
+{
+    width: 23%;
+    height: 14%;
+    left: 64%;
+    top: 21%;
+    border-radius: 74px 52px 0px 0px;
+}
+
+/* Parte inferior com cor diferente */
+.pasta_down 
+{
+    width: 25%;
+    height: 20%;
+    left: 58%;
+    top: 75%;
+    background: rgba(90, 224, 197, 0.66);
+    box-shadow: inset 0px 10px 14.7px rgba(0, 0, 0, 0.25);
+    border-radius: 68px 68px 0px 0px;
+}
+
+
+.logo 
+{
+  position: absolute;
+  width: 15%;
+  height: auto;
+  left: 1%;
+  top: -1%;
+}
+
+body
+{
+  background-color: rgba(173, 158, 204, 1);
+}
+
+.inicio
+{
+    /* Início */
+
+position: absolute;
+width: 5%;
+height: 30%;
+left: 22%;
+top: 10%;
+
+font-family: sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 3.5vh;
+line-height: 12vh;
+color: #1B5088;
+/* identical to box height */
+
+text-shadow: 17px 9px 3.8px rgba(0, 0, 0, 0.25);
+
+}
+
+.sobre
+{
+    
+position: absolute;
+width: 5%;
+height: 30%;
+left: 35.5%;
+top: 10%;
+
+font-family: sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 3.5vh;
+line-height: 12vh;
+color: #1B5088;
+/* identical to box height */
+
+text-shadow: 17px 9px 3.8px rgba(0, 0, 0, 0.25);
+}
+
+.servicos
+{
+    
+position: absolute;
+width: 5%;
+height: 30%;
+left: 48%;
+top: 10%;
+
+font-family: sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 3.4vh;
+line-height: 12vh;
+color: #1B5088;
+/* identical to box height */
+
+text-shadow: 17px 9px 3.8px rgba(0, 0, 0, 0.25);
+}
+
+
+
+/* Botão Contato */
+.Contato {
+    position: absolute;
+    width: 13%;
+    height: 8%;
+    left: 70%;
+    top: 10%;
+
+    background: #6F83DD;
+    box-shadow: inset 0px -5px 9.1px -4px rgba(0, 0, 0, 0.25);
+    border-radius: 33px;
+    border-color: #6F83DD;
+
+    font-family: 'Inria Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 34px;
+    color: white; /* adiciona cor ao texto */
+    text-align: center; /* centraliza o texto */
+    text-shadow: 14px 6px 6.2px rgba(0, 0, 0, 0.25);
+
+    padding: 10px 30px; /* espaço interno pro texto */
+    cursor: pointer; /* cursor de botão */
+}
+
+.texto {
+  position: absolute;
+  width: 35%;
+  height: 20%;
+  left: 22%;
+  top: 56%;
+
+  font-family: 'Inria Sans', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 5vh;
+  color: #FFFFFF;
+}
+
+/* Texto acima (por exemplo, título) */
+.texto_acima {
+  font-size: 5vh;
+}
+
+/* Texto abaixo (por exemplo, subtítulo) */
+.texto_abaixo {
+  font-family: 'Inria Sans', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2.5vh; /* antes estava 0pt — deixei algo proporcional */
+  line-height: 3.5vh;
+  color: #000000;
+}
+
+/* Destaque preto */
+.destaque_preto {
+  color: black;
+}
+
+.modernizado
+{
+  position: absolute;
+  width: 60%;
+  height: 10%;
+  left: 24%;
+  top: 118%;
+
+  font-family: 'Inria Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 8.5vh;
+  line-height: 9vh;
+
+  color: #000000;
+}
+
+.foco
+{
+  color: #1B5088;
+}
+
+.confianca
+{
+  position: absolute;
+  width: 80%;
+  height: 20%;
+  left: 16%;
+  top: 330%;
+
+  font-family: 'Inria Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 7vh;
+  line-height: 4vh;
+
+  color: #000000;
+}
+
+.confianca_abaixo
+{
+  position: absolute;
+  width: 50%;
+  height: 20%;
+  left: 27%;
+  top: 343%;
+
+  font-family: 'Inria Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 3vh;
+  line-height: 1vh;
+
+  color: #000000;
+}
+
+.empresas
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 100px; /* espaço entre elas */
+  margin-top:200%;
+}
+
+.empresas img 
+{
+  width: 15%;   /* diminui o tamanho */
+  height: auto;   /* mantém proporção */
+  object-fit: contain; /* evita distorção */
+}
+
+.faixa
+{
+  position: absolute;
+  width: 100%;
+  height: 12%;
+  left: -0%;
+  top: 410%;
+
+  background: #1F3C71;
+}
+
+.achou_interessante
+{
+  position: absolute;
+  width: 60%;
+  height: 10%;
+  left: 20%;
+  top: 455%;
+
+  font-family: 'Inria Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 5vh;
+  line-height: 5vh;
+  text-align: center;
+  /* identical to box height */
+
+  color: #000000;
+}
+
+.painel1
+{
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 60%;
+  height: 85%;
+  left: 19%;
+  top: 500%;
+
+  background: #888997;
+  border: 5px solid #000000;
+  box-shadow: 18px 16px 13.9px rgba(0, 0, 0, 0.25);
+  border-radius: 60px;
+}
+
+.cobol
+{
+  position: absolute;
+  width: 20%;
+  height: 10%;
+  left: 10%;
+  top: 11%;
+
+  font-family: 'Inria Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 10vh;
+  line-height: 5vh;
+
+  color: #000000;
+}
+
+.cobol_img
+{
+  position: absolute;
+  width: 45%;
+  height: 55%;
+  left: 3%;
+  top: 32%;
+}
+
+.texto_cobol
+{
+  position: absolute;
+  width: 55%;
+  height: 10%;
+  left: 44%;
+  top: 24%;
+
+  font-family: 'Inria Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 6vh;
+  line-height: 5vh;
+
+  color: #000000;
+}
+
+.saiba_mais
+{
+  cursor: pointer;
+  position: absolute;
+  width: 35%;
+  height: 18%;
+  left: 55%;
+  top: 53%;
+
+  background-color: #FFBD60;
+  border: 5px solid #000000;
+  border-radius: 20px;
+
+  color: #000000;
+
+
+  font-family: 'Inria Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 4vh;
+  line-height: 2vh;
+}
+
+.saiba_mais:active 
+{
+  transform: translateY(4px);
+  box-shadow: 10px 5px 10px rgba(0, 0, 0, 0.25);
+}
+
+.painel2
+{
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 60%;
+  height: 85%;
+  left: 19%;
+  top: 620%;
+
+  background: #888997;
+  border: 5px solid #000000;
+  box-shadow: 18px 16px 13.9px rgba(0, 0, 0, 0.25);
+  border-radius: 60px;
+}
+
+
+.visual_basic
+{
+  position: absolute;
+  width: 42%;
+  height: 10%;
+  left: 6%;
+  top: 11%;
+
+  font-family: 'Inria Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 8vh;
+  line-height: 5vh;
+
+  color: #000000;
+}
+
+.visual_img
+{
+  position: absolute;
+  width: 45%;
+  height: 55%;
+  left: 1%;
+  top: 25%;
+}
+
+.texto_visual
+{
+  position: absolute;
+  width: 58%;
+  height: 10%;
+  left: 42%;
+  top: 24%;
+
+  font-family: 'Inria Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 5vh;
+  line-height: 5vh;
+
+  color: #000000; 
+}
+
+.saiba_mais2
+{
+  cursor: pointer;
+  position: absolute;
+  width: 35%;
+  height: 18%;
+  left: 53%;
+  top: 53%;
+
+  background-color: #FFBD60;
+  border: 5px solid #000000;
+  border-radius: 20px;
+
+  color: #000000;
+
+
+  font-family: 'Inria Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 4vh;
+  line-height: 2vh;
+}
+
+.saiba_mais2:active 
+{
+  transform: translateY(4px);
+  box-shadow: 10px 5px 10px rgba(0, 0, 0, 0.25);
+}
+
+.painel3
+{
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 60%;
+  height: 85%;
+  left: 19%;
+  top: 720%;
+
+  background: #888997;
+  border: 5px solid #000000;
+  box-shadow: 18px 16px 13.9px rgba(0, 0, 0, 0.25);
+  border-radius: 60px;
+}
+
+
+.delphi
+{
+  position: absolute;
+  width: 42%;
+  height: 10%;
+  left: 12%;
+  top: 11%;
+
+  font-family: 'Inria Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 8vh;
+  line-height: 5vh;
+
+  color: #000000;
+}
+
+.delphi_img
+{
+  position: absolute;
+  width: 43%;
+  height: 55%;
+  left: 1%;
+  top: 25%;
+}
+
+.texto_delphi
+{
+  position: absolute;
+  width: 58%;
+  height: 10%;
+  left: 45%;
+  top: 24%;
+
+  font-family: 'Inria Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 5vh;
+  line-height: 5vh;
+
+  color: #000000; 
+}
+
+.saiba_mais3
+{
+  cursor: pointer;
+  position: absolute;
+  width: 35%;
+  height: 18%;
+  left: 53%;
+  top: 53%;
+
+  background-color: #FFBD60;
+  border: 5px solid #000000;
+  border-radius: 20px;
+
+  color: #000000;
+
+
+  font-family: 'Inria Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 4vh;
+  line-height: 2vh;
+}
+
+.saiba_mais3:active 
+{
+  transform: translateY(4px);
+  box-shadow: 10px 5px 10px rgba(0, 0, 0, 0.25);
+}
+
+
+
+.painel_contato
+{
+
+  position: absolute;
+  width: 75%;
+  height: 130%;
+  left: 11%;
+  top: 830%;
+
+  background: #6555A6;
+  box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.20), inset 3px 14px 32.8px rgba(0, 0, 0, 0.20);
+  border-radius: 50px; 
+}
+
+.texto_duvida
+{
+  position: absolute;
+  width: 100%;
+  height: 10%;
+  left: 3%;
+  top: 9%;
+
+  font-family: 'Inria Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 6.5vh;
+  line-height: 6vh;
+
+  color: #FFFEB2; 
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.email_img
+{
+  position: absolute;
+  width: 18%;
+  height: 15%;
+  left: 1%;
+  top: 26%;
+}
+
+.email_click
+{
+  position: absolute;
+  width: 70%;
+  height: 5%;
+  left: 18%;
+  top: 28%;
+
+  font-family: 'Jost';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 6.5vh;
+  line-height: 6vh;
+  text-decoration-line: underline;
+
+  color: #FFFEB2;
+}
+
+.telefone_img
+{
+  position: absolute;
+  width: 16%;
+  height: 15%;
+  left: 1.5%;
+  top: 51%;
+}
+
+.telefone_click
+{
+  position: absolute;
+  width: 70%;
+  height: 5%;
+  left: 19%;
+  top: 55%;
+
+  font-family: 'Jost';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 6.5vh;
+  line-height: 6vh;
+  text-decoration-line: underline;
+
+  color: #FFFEB2;
+}
+
+.localizacao_img
+{
+  position: absolute;
+  width: 16%;
+  height: 15%;
+  left: 1.5%;
+  top: 76%;
+}
+
+.localizacao_click
+{
+  position: absolute;
+  width: 70%;
+  height: 5%;
+  left: 19%;
+  top: 76%;
+
+  font-family: 'Jost';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 6.5vh;
+  line-height: 6vh;
+  text-decoration-line: underline;
+
+  color: #FFFEB2;
+}
+
+.direitos
+{
+  position: absolute;
+  width: 50%;
+  height: 20%;
+  left: 24%;
+  top: 980%;
+
+  font-family: 'Inria Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 3vh;
+  line-height: 5vh;
+  text-align: center;
+
+  color: #000000;
+}
