@@ -1,0 +1,254 @@
+* 
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body
+{
+    background: #0e3966;
+}
+
+.painel
+{
+    position: absolute;
+    width: 53%;
+    height: 80%;
+    left: 23.6%;
+    top: 10%;
+    background: #1B5088;
+    box-shadow: 12.35px 10px 10px rgba(100, 66, 130, 0.25);
+    border-radius: 20px;
+}  
+
+.caixa1
+{
+    font-size: 3vh;
+    position: absolute;
+    width: 36%;
+    height: 9%;
+    left: 5%;
+    top: 14%;
+    background: #FFFEFE;
+    border: 1.6px solid #000000;
+    backdrop-filter: blur(40px);
+    border-radius: 16px;
+}  
+
+.caixa2
+{
+    font-size: 3vh;
+    position: absolute;
+    width: 36%;
+    height: 9%;
+    left: 5%;
+    top: 30%;
+    background: #FFFEFE;
+    border: 1.6px solid #000000;
+    backdrop-filter: blur(40px);
+    border-radius: 16px;
+}
+
+.caixa3
+{
+    font-size: 3vh;
+    position: absolute;
+    width: 36%;
+    height: 9%;
+    left: 5%;
+    top: 46%;
+    background: #FFFEFE;
+    border: 1.6px solid #000000;
+    backdrop-filter: blur(40px);
+    border-radius: 16px;
+}
+
+.caixa4
+{
+    font-size: 3vh;
+    position: absolute;
+    width: 36%;
+    height: 9%;
+    left: 5%;
+    top: 61%;
+    background: #FFFEFE;
+    border: 1.6px solid #000000;
+    backdrop-filter: blur(40px);
+    border-radius: 16px;
+}
+
+.caixa5
+{
+    font-size: 3vh;
+    position: absolute;
+    width: 36%;
+    height: 9%;
+    left: 5%;
+    top: 76%;
+    background: #FFFEFE;
+    border: 1.6px solid #000000;
+    backdrop-filter: blur(40px);
+    border-radius: 16px;
+}
+
+.QRcode
+{
+
+    position: absolute;
+    width: 32%;
+    height: 42%;
+    left: 56%;
+    top: 25%;
+
+}
+
+.cadastrar
+{
+
+    cursor: pointer;
+    position: absolute;
+    height: 12%;
+    width: 39%;
+    top: 74%;
+    left: 52.2%;
+
+    background: linear-gradient(0deg, #64AEF3, #64AEF3), linear-gradient(0deg, #FFFEFE, #FFFEFE), #FFFEFE;
+    border: 5.2px solid #0084FF;
+    box-shadow: 26px 10px 23.7px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+
+    font-family: 'Inria Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 4vh;
+    line-height: 2vh;
+
+    color: #000000;
+
+}
+
+.cadastrar:active 
+{
+  transform: translateY(4px);
+  box-shadow: 10px 5px 10px rgba(0, 0, 0, 0.25);
+}
+
+.email
+{
+    position: absolute;
+    width: 20%;
+    height: 5%;
+    left: 7%;
+    top: 9.5%;
+
+    font-family: 'Joan';
+    font-style: normal;
+    font-weight: 10;
+    font-size: 4vh;
+    line-height: 3vh;
+
+    color: #FFFFFF;
+}
+
+.nome
+{
+    position: absolute;
+    width: 40%;
+    height: 5%;
+    left: 7%;
+    top: 25%;
+
+    font-family: 'Joan';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 4vh;
+    line-height: 4vh;
+
+    color: #FFFFFF;
+}
+
+.senha
+{
+    position: absolute;
+    width: 5%;
+    height: 20%;
+    left: 7%;
+    top: 41%;
+
+    font-family: 'Joan';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 4vh;
+    line-height: 4vh;
+
+    color: #FFFFFF;
+}
+
+.confirmar
+{
+    position: absolute;
+    width: 40%;
+    height: 5%;
+    left: 7%;
+    top: 56%;
+
+    font-family: 'Joan';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 4vh;
+    line-height: 4vh;
+
+    color: #FFFFFF;
+}
+
+.telefone
+{
+    position: absolute;
+    width: 30%;
+    height: 5%;
+    left: 7%;
+    top: 71%;
+
+    font-family: 'Joan';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 4vh;
+    line-height: 4vh;
+
+    color: #FFFFFF;
+}
+
+.login
+{
+    position: absolute;
+    width: 50%;
+    height: 10%;
+    left: 27%;
+    top: 90%;
+
+    font-family: 'Joan';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 4vh;
+    line-height: 4vh;
+
+    color: #FFFFFF;
+}
+
+.escanear
+{
+    position: absolute;
+    width: 39%;
+    height: 10%;
+    left: 56%;
+    top: 14%;
+
+    font-family: 'Joan';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 3.7vh;
+    line-height: 4vh;
+
+    color: #FFFFFF;
+}

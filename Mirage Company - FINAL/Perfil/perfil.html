@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="perfil.css">
+    <script defer src="perfil.js"></script>
+    <title>Perfil</title>
+</head>
+<body>
+
+    <a class="voltar" href="javascript:history.go(-1)">&lt; Voltar</a>
+
+    <!-- Seção da Foto -->
+    <div class="ret_foto">
+        <h1 class="JP">João Pedro de Oliveira</h1>
+        <div class="circle_pfp">
+            <img src="../imagens/Cinpal_logo.png" class="pfp" alt="Logo da Cinpal">
+            <div class="editar_lapis_circle">
+                <img src="../imagens/editar_lapis.png" class="editar_lapis">
+            </div>
+        </div>
+        <button class="botao_foto">Enviar nova foto</button>
+    </div>
+
+    <!-- Seção Dados do Perfil -->
+    <div class="dados_perfil">
+        <div class="header_row">
+            <h1 class="dados_perfil_txt">Dados do perfil</h1>
+            <h1 class="sair_txt" onclick="logout()">Sair</h1>
+        </div>
+
+        <div class="inputs_container">
+            <div class="input_group">
+                <h2>Nome</h2>
+                <input type="text">
+            </div>
+
+            <div class="input_group">
+                <h2>Usuário</h2>
+                <input type="text">
+            </div>
+
+            <div class="input_group">
+                <h2>Senha</h2>
+                <input type="password">
+            </div>
+
+            <div class="input_group">
+                <h2>Confirme a Senha</h2>
+                <input type="password">
+            </div>
+
+            <div class="input_group">
+                <h2>Email</h2>
+                <input type="email">
+            </div>
+
+            <div class="input_group">
+                <h2>Confirme seu Email</h2>
+                <input type="email">
+            </div>
+
+            <div class="input_group">
+                <h2>CNPJ</h2>
+                <input type="text">
+            </div>
+
+            <div class="input_group">
+                <h2>Número de Contato</h2>
+                <input type="tel">
+            </div>
+        </div>
+        <div class="social_login">
+       <img src="../imagens/entrar_com_google.png" class="social_btn">
+    <img src="../imagens/entrar_com_facebook.png" class="social_btn">
+      </div>
+        <button class="atualizar_dados">Atualizar dados</button>
+    </div>
+
+<div class="logout" id = "1"> 
+    <div class="painel"> Sair </div>
+        <h1 class="confirm">Está certo que deseja sair ? </h1>
+        <button class="sair_button" onclick="window.location.href='../Start/start.html'"> Sair </button>
+        <button class="cancelar" onclick="back()"> Cancelar</button>
+    
+
+
+
+</div>
+
+
+</body>
+</html>
